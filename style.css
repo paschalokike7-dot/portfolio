@@ -134,3 +134,12 @@ a { color: inherit; }
   .hero { padding: 64px 5vw 72px; }
   .contact-box { padding: 28px 22px; }
 }
+.portrait {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid var(--yellow);
+  display: block;
+  margin-bottom: 1.5rem;
+}
