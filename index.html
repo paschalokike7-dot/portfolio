@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pascal Okike | Front-End Developer</title>
+  <meta name="description" content="Portfolio of Pascal Okike, a computer engineering student building clean, responsive web apps with React, JavaScript and Supabase.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">Pascal Okike</a>
+    <nav class="nav">
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a class="btn btn-small" href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">Front-end developer · Computer engineering student</p>
+      <h1>I Build clean, Working Web Apps.</h1>
+      <p class="lead">I design, code, connect the database, and deploy. Here are three things I've shipped, each with a live link you can open.</p>
+      <div class="hero-actions">
+        <a class="btn" href="#projects">See my projects</a>
+        <a class="btn btn-ghost" href="mailto:paschalokike7@gmail.com">Email me</a>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <h2>Projects</h2>
+      <p class="section-intro">Real projects with live links and source code.</p>
+      <div class="projects">
+
+        <article class="project">
+          <div class="shot">
+            <img src="pharmacy.png" alt="Screenshot of the pharmacy stock and expiry manager" onerror="this.parentElement.classList.add('no-img'); this.remove()">
+          </div>
+          <div class="project-body">
+            <h3>Pharmacy Stock &amp; Expiry Manager</h3>
+            <p>A database-backed stock tracker for pharmacy inventory. Add, edit and delete drugs, flag expired and soon-to-expire stock, spot low stock, and search the list. Demo data only.</p>
+            <ul class="tags"><li>React</li><li>Vite</li><li>Supabase</li><li>PostgreSQL</li><li>Vercel</li></ul>
+            <div class="links">
+              <a href="https://pharmacy-app-kappa-tan.vercel.app" target="_blank" rel="noopener">Live demo</a>
+              <a href="https://github.com/paschalokike7-dot/pharmacy-app" target="_blank" rel="noopener">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="shot">
+            <img src="shuttle.png" alt="Screenshot of the God's Time Travel Service landing page" onerror="this.parentElement.classList.add('no-img'); this.remove()">
+          </div>
+          <div class="project-body">
+            <h3>Student Shuttle Landing Page</h3>
+            <p>A landing page for a student holiday shuttle service I run. It shows routes and prices, calculates the fare, and opens WhatsApp with the booking details already filled in.</p>
+            <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Responsive</li></ul>
+            <div class="links">
+              <a href="https://gods-time-travel.vercel.app" target="_blank" rel="noopener">Live site</a>
+              <a href="https://github.com/paschalokike7-dot/gods-time-travel" target="_blank" rel="noopener">Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="shot">
+            <img src="flyer.png" alt="Promotional flyer for a student shuttle service" onerror="this.closest('.project').remove()">
+          </div>
+          <div class="project-body">
+            <h3>Shuttle Service Flyer</h3>
+            <p>A promotional flyer for the same shuttle service, designed in Canva. Contact details are removed here.</p>
+            <ul class="tags"><li>Canva</li><li>Graphic design</li></ul>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <h2>Skills</h2>
+      <p class="section-intro">What I've used in the projects above.</p>
+      <div class="skills">
+        <div class="skill-group">
+          <h3>Front-end</h3>
+          <ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>React</li><li>Responsive design</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Data &amp; back-end</h3>
+          <ul><li>Supabase</li><li>PostgreSQL</li><li>CRUD apps</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Tools</h3>
+          <ul><li>Git</li><li>GitHub</li><li>Vercel</li><li>Vite</li><li>Canva</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Learning next</h3>
+          <ul><li>Authentication</li><li>Row-level security</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <h2>About</h2>
+      <p>I'm a computer engineering student at a private university in Nigeria. I like building things end to end: the design, the code, the database, and the deployment.</p>
+      <p>My first real project idea came from a student shuttle service I run. I'm looking for a remote front-end role or internship where I can keep shipping real work.</p>
+    </section>
+  </main>
+
+  <section class="contact" id="contact">
+    <div class="contact-box">
+      <h2>Let's talk</h2>
+      <p>Open to remote front-end roles and internships.</p>
+      <div class="contact-links">
+        <a class="btn" href="mailto:paschalokike7@gmail.com">paschalokike7@gmail.com</a>
+        <a class="btn btn-ghost" href="https://github.com/paschalokike7-dot" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© Pascal Okike · Built with plain HTML and CSS</p>
+  </footer>
+</body>
+</html>
